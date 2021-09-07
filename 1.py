@@ -4,7 +4,7 @@ import numpy as np
 frameW = 1080
 frameH = 720
 
-cap = cv2.VideoCapture("rtsp://guest:itnlu2801@192.168.1.9:554/Streaming/channels/101")
+cap = cv2.VideoCapture(0)
 #cap.set(3, frameW)
 #cap.set(4, frameH)
 
